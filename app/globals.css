@@ -91,9 +91,13 @@
   }
 }
 
-.main-section {
+.inner-section {
   width: 80%;
   margin: 32px auto;
+}
+
+#stats-section {
+  background: #d0e6ff;
 }
 
 body, html {

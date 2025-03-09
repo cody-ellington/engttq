@@ -42,7 +42,7 @@ interface Feature {
     },
   }: Feature166Props) => {
     return (
-      <section className="py-16">
+      <div className="py-16 inner-section">
         <div className="container">
           <div className="mb-24 flex flex-col items-center gap-6" data-aos="flip-left">
             <h1 className="text-center text-3xl font-semibold lg:max-w-3xl lg:text-5xl">
@@ -97,7 +97,7 @@ interface Feature {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   };
   

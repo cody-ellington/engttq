@@ -42,7 +42,7 @@ interface Logo {
     ],
   }: Logos8Props) => {
     return (
-      <section className="py-16">
+      <div className="py-16 inner-section">
         <div className="container">
           <div className="flex flex-col items-center text-center">
             <h2 className="text-3xl font-bold">{title}</h2>
@@ -61,7 +61,7 @@ interface Logo {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   };
   

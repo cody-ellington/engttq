@@ -65,29 +65,29 @@ const Navbar1 = ({
   menu = [
     { title: "Home", url: "#" },
     {
-      title: "Products",
+      title: "Course",
       url: "#",
       items: [
         {
-          title: "Blog",
+          title: "Grade 1",
           description: "The latest industry news, updates, and info",
           icon: <Book className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Company",
+          title: "Grade 2",
           description: "Our mission is to innovate and empower the world",
           icon: <Trees className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Careers",
+          title: "Grade 3",
           description: "Browse job listing and discover our workspace",
           icon: <Sunset className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Support",
+          title: "Grade 4",
           description:
             "Get in touch with our support team or visit our community forums",
           icon: <Zap className="size-5 shrink-0" />,
@@ -96,29 +96,29 @@ const Navbar1 = ({
       ],
     },
     {
-      title: "Resources",
+      title: "Certification",
       url: "#",
       items: [
         {
-          title: "Help Center",
+          title: "TOEIC",
           description: "Get all the answers you need right here",
           icon: <Zap className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Contact Us",
+          title: "TOEFL",
           description: "We are here to help you with any questions you have",
           icon: <Sunset className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Status",
+          title: "IELTS",
           description: "Check the current status of our services and APIs",
           icon: <Trees className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Terms of Service",
+          title: "CAMBRIDGE",
           description: "Our terms and conditions for using our services",
           icon: <Book className="size-5 shrink-0" />,
           url: "#",
@@ -135,8 +135,8 @@ const Navbar1 = ({
     },
   ],
   auth = {
-    login: { text: "Log in", url: "#" },
-    signup: { text: "Sign up", url: "#" },
+    login: { text: "Contact", url: "#" },
+    signup: { text: "Contact", url: "#" },
   },
 }: Navbar1Props) => {
   return (

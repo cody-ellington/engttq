@@ -45,7 +45,7 @@ const Stats8 = ({
   ],
 }: Stats8Props) => {
   return (
-    <section className="py-32">
+    <div className="py-32 inner-section">
       <div className="container" data-aos="fade-up">
         <div className="flex flex-col gap-4">
           <h2 className="text-2xl font-bold md:text-4xl">{heading}</h2>
@@ -67,7 +67,7 @@ const Stats8 = ({
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

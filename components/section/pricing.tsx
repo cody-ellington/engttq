@@ -113,7 +113,7 @@ const Pricing2 = ({
 }: Pricing2Props) => {
   const [isYearly, setIsYearly] = useState(false);
   return (
-    <section className="py-16">
+    <div className="py-16 inner-section">
       <div className="container">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
           <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
@@ -181,7 +181,7 @@ const Pricing2 = ({
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

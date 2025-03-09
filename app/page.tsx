@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       {/* HERO BANNER */}
-      <section id="hero-section" className="main-section">
+      <section id="hero-section" className="main-section py-8">
         <Hero3></Hero3>
       </section>
 

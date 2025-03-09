@@ -30,7 +30,7 @@ const Cta11 = ({
   },
 }: Cta11Props) => {
   return (
-    <section className="py-16">
+    <div className="py-16 inner-section">
       <div className="container">
         <div className="flex flex-col items-center rounded-lg bg-[#d0e6ff] p-8 text-center md:rounded-xl lg:p-16">
           <h3 className="mb-3 max-w-3xl text-2xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
@@ -53,7 +53,7 @@ const Cta11 = ({
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

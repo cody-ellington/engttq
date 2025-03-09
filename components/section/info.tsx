@@ -33,7 +33,7 @@ interface Feature {
     ],
   }: Feature13Props) => {
     return (
-      <section className="py-16">
+      <div className="py-16 inner-section">
         <div className="container">
           {/* <h2 className="text-3xl font-medium lg:text-4xl">{heading}</h2> */}
           <div className=" grid gap-9 lg:grid-cols-2">
@@ -49,13 +49,13 @@ interface Feature {
                     </p>
                     <h3 className="text-2xl md:text-4xl">{feature.title}</h3>
                   </div>
-                  <div className="md:1/3 w-2/5 shrink-0 rounded-r-lg border-l">
+                  {/* <div className="md:1/3 w-2/5 shrink-0 rounded-r-lg border-l">
                     <img
                       src={feature.image}
                       alt={feature.title}
                       className="h-full w-full object-cover"
                     />
-                  </div>
+                  </div> */}
                 </div>
                 <div className="p-4 text-muted-foreground md:p-8">
                   {feature.description}
@@ -64,7 +64,7 @@ interface Feature {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     );
   };
   
