@@ -96,7 +96,7 @@ const Hero3 = ({
               </p>
             </div>
           </div>
-          <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
+          {/* <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
             {buttons.primary && (
               <Button asChild className="w-full sm:w-auto">
                 <a href={buttons.primary.url}>{buttons.primary.text}</a>
@@ -110,11 +110,11 @@ const Hero3 = ({
                 </a>
               </Button>
             )}
-          </div>
+          </div> */}
         </div>
         <div className="flex" data-aos="fade-left">
           <img
-            src="img/students-head-to-class.jpg"
+            src="img/comp.jpg"
             alt="placeholder hero"
             className="max-h-[600px] w-full rounded-md object-cover lg:max-h-[800px]"
           />

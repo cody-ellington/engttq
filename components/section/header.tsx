@@ -126,17 +126,13 @@ const Navbar1 = ({
       ],
     },
     {
-      title: "Pricing",
-      url: "#",
-    },
-    {
-      title: "Blog",
-      url: "#",
+      title: "About Us",
+      url: "/about",
     },
   ],
   auth = {
-    login: { text: "Contact", url: "#" },
-    signup: { text: "Contact", url: "#" },
+    login: { text: "Contact", url: "/contact" },
+    signup: { text: "Contact", url: "/contact" },
   },
 }: Navbar1Props) => {
   return (

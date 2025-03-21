@@ -52,9 +52,9 @@ export default function Home() {
       </section>
 
       {/* PRICING SECTION */}
-      <section id="pricing-section" className="main-section" data-aos="fade-up">
+      {/* <section id="pricing-section" className="main-section" data-aos="fade-up">
         <Pricing2></Pricing2>
-      </section>
+      </section> */}
 
       {/* CTA SECTION */}
       <section id="cta-section" className="main-section" data-aos="fade-up">

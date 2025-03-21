@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar1 } from "@/components/section/header";
 import { Footer2 } from "@/components/section/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Josefin_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tan Thanh Quang English Center",
