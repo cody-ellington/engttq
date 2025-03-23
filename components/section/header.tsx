@@ -57,82 +57,82 @@ interface Navbar1Props {
 
 const Navbar1 = ({
   logo = {
-    url: "https://www.shadcnblocks.com",
+    url: "/",
     src: "logo.png",
     alt: "logo",
     title: "",
   },
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Trang chủ", url: "/" },
     {
-      title: "Course",
-      url: "#",
-      items: [
-        {
-          title: "Grade 1",
-          description: "The latest industry news, updates, and info",
-          icon: <Book className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Grade 2",
-          description: "Our mission is to innovate and empower the world",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Grade 3",
-          description: "Browse job listing and discover our workspace",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Grade 4",
-          description:
-            "Get in touch with our support team or visit our community forums",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-      ],
+      title: "Khoá học",
+      url: "/course",
+      // items: [
+      //   {
+      //     title: "Grade 1",
+      //     description: "The latest industry news, updates, and info",
+      //     icon: <Book className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "Grade 2",
+      //     description: "Our mission is to innovate and empower the world",
+      //     icon: <Trees className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "Grade 3",
+      //     description: "Browse job listing and discover our workspace",
+      //     icon: <Sunset className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "Grade 4",
+      //     description:
+      //       "Get in touch with our support team or visit our community forums",
+      //     icon: <Zap className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      // ],
     },
     {
-      title: "Certification",
-      url: "#",
-      items: [
-        {
-          title: "TOEIC",
-          description: "Get all the answers you need right here",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "TOEFL",
-          description: "We are here to help you with any questions you have",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "IELTS",
-          description: "Check the current status of our services and APIs",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "CAMBRIDGE",
-          description: "Our terms and conditions for using our services",
-          icon: <Book className="size-5 shrink-0" />,
-          url: "#",
-        },
-      ],
+      title: "Chứng chỉ",
+      url: "/certificate",
+      // items: [
+      //   {
+      //     title: "TOEIC",
+      //     description: "Get all the answers you need right here",
+      //     icon: <Zap className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "TOEFL",
+      //     description: "We are here to help you with any questions you have",
+      //     icon: <Sunset className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "IELTS",
+      //     description: "Check the current status of our services and APIs",
+      //     icon: <Trees className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "CAMBRIDGE",
+      //     description: "Our terms and conditions for using our services",
+      //     icon: <Book className="size-5 shrink-0" />,
+      //     url: "#",
+      //   },
+      // ],
     },
     {
-      title: "About Us",
+      title: "Về chúng tôi",
       url: "/about",
     },
   ],
   auth = {
-    login: { text: "Contact", url: "/contact" },
-    signup: { text: "Contact", url: "/contact" },
+    login: { text: "Liên hệ", url: "/contact" },
+    signup: { text: "Liên hệ", url: "/contact" },
   },
 }: Navbar1Props) => {
   return (

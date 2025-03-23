@@ -33,7 +33,7 @@ export default function Home() {
       {/* FEATURE SECTION */}
       <section id="feature-section" className="main-section">
         <Feature166
-          heading={"Why Choose Us?"}
+          heading={"Tại Sao Chọn Chúng Tôi?"}
           feature1={undefined}
           feature2={undefined}
           feature3={undefined}
@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* CTA SECTION */}
       <section id="cta-section" className="main-section" data-aos="fade-up">
-        <Cta11 heading={"Ready to get started?"} description={"Join thousands of satisfied customers using our platform to build amazing websites."}></Cta11>
+        <Cta11 heading={"Sẵn sàng tham gia?"} description={"Cùng them gia với chúng tôi để nâng cấp kỹ năng của bạn"}></Cta11>
       </section>
     </>
   );

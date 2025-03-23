@@ -16,18 +16,18 @@ interface Feature {
     features = [
       {
         id: "feature-1",
-        title: "Built for immersive learning and real-time interaction",
-        subtitle: "FOR OFFLINE COURSE",
+        title: "Chuyên sâu, tương tác thực tế",
+        subtitle: "KHÓA HỌC OFFLINE",
         description:
-          "Experience face-to-face learning with expert instructors in a structured classroom environment. Our offline courses provide hands-on activities, group discussions, and personalized mentorship to enhance your skills effectively.",
+          "Trải nghiệm học trực tiếp với giảng viên giàu kinh nghiệm trong môi trường lớp học bài bản. Khóa học offline của chúng tôi mang đến các hoạt động thực hành, thảo luận nhóm và hướng dẫn cá nhân giúp nâng cao kỹ năng hiệu quả.",
         image: "img/BI1.jpg",
       },
       {
         id: "feature-2",
-        title: "Designed for flexibility and convenience",
-        subtitle: "FOR OFFLINE COURSE",
+        title: "Thiết kế linh hoạt, tiện lợi",
+        subtitle: "KHOÁ HỌC ONLINE",
         description:
-          "Learn anytime, anywhere with our interactive online courses. Access high-quality video lectures, live sessions, and practical exercises tailored to your pace and schedule.",
+          "Học mọi lúc, mọi nơi với các khóa học trực tuyến tương tác. Truy cập bài giảng video chất lượng cao, lớp học trực tuyến và bài tập thực hành phù hợp với tiến độ học tập của bạn.",
         image: "img/BI2.jpg",
       },
     ],

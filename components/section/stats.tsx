@@ -15,32 +15,28 @@ interface Stats8Props {
 }
 
 const Stats8 = ({
-  heading = "Platform performance insights",
-  description = "Ensuring stability and scalability for all users",
-  link = {
-    text: "Read the full impact report",
-    url: "https://www.shadcnblocks.com",
-  },
+  heading = "Những con số ấn tượng về giáo dục",
+  description = "Giúp học sinh và giáo viên tiếp cận những phương pháp học tập hiệu quả hơn",
   stats = [
     {
       id: "stat-1",
-      value: "250%+",
-      label: "average growth in user engagement",
+      value: "95%+",
+      label: "Học sinh tham gia học tập tích cực hơn",
     },
     {
       id: "stat-2",
-      value: "$2.5m",
-      label: "annual savings per enterprise partner",
+      value: "1.2tr",
+      label: "Mức tiết kiệm trung bình mỗi năm",
     },
     {
       id: "stat-3",
-      value: "200+",
-      label: "integrations with top industry platforms",
+      value: "300+",
+      label: "Trường học và đại học đã hợp tác",
     },
     {
       id: "stat-4",
-      value: "99.9%",
-      label: "customer satisfaction over the last year",
+      value: "98.7%",
+      label: "Giáo viên và học sinh hài lòng",
     },
   ],
 }: Stats8Props) => {
@@ -50,13 +46,6 @@ const Stats8 = ({
         <div className="flex flex-col gap-4">
           <h2 className="text-2xl font-bold md:text-4xl">{heading}</h2>
           <p>{description}</p>
-          <a
-            href={link.url}
-            className="flex items-center gap-1 font-bold hover:underline"
-          >
-            {link.text}
-            <ArrowRight className="h-auto w-4" />
-          </a>
         </div>
         <div className="mt-14 grid gap-x-5 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (

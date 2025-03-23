@@ -15,29 +15,29 @@ interface Feature {
   
   const Feature166 = ({
     heading = "Blocks built with Shadcn & Tailwind",
-    description = "Unlock your full potential with Tân Thanh Quang English Center. Expert-led courses, interactive learning, and personalized support for all ages.",
+    description = "Phát huy tối đa tiềm năng của bạn cùng Trung tâm Anh ngữ Tân Thanh Quang.",
     feature1 = {
-      title: "Interactive and engaging classes",
+      title: "Lớp học tương tác và sinh động",
       description:
-        "Creating intuitive user experiences with modern interface design principles and user-centered methodologies.",
+        "Trải nghiệm học tập trực quan với phương pháp giảng dạy hiện đại, lấy người học làm trung tâm.",
       image: "img/taking-notes-at-team-meeting.jpg",
     },
     feature2 = {
-      title: "Experienced and certified teachers",
+      title: "Giáo viên giàu kinh nghiệm và được chứng nhận",
       description:
-        "Building websites that look and function perfectly across all devices and screen sizes.",
+        "Đội ngũ giảng viên chuyên nghiệp, giảng dạy hiệu quả cho mọi đối tượng học viên.",
       image: "img/thoughtful-students-talk.jpg",
     },
     feature3 = {
-      title: "Flexible schedules for all learners",
+      title: "Lịch học linh hoạt cho mọi người",
       description:
-        "Seamlessly incorporating your brand identity into every aspect of your website's design.",
+        "Dễ dàng sắp xếp thời gian học phù hợp với nhu cầu cá nhân.",
       image: "img/four-students-study-flatlay.jpg",
     },
     feature4 = {
-      title: "IELTS, TOEIC, and communication-focused programs",
+      title: "Chương trình IELTS, TOEIC và giao tiếp",
       description:
-        "Ensuring fast loading times and smooth performance through optimized code and assets.",
+        "Học tập hiệu quả với lộ trình được tối ưu hóa, giúp bạn đạt mục tiêu nhanh chóng.",
       image: "img/student-back-to-school-supplies.jpg",
     },
   }: Feature166Props) => {

@@ -27,17 +27,7 @@ interface Hero3Props {
 
 const Hero3 = ({
   heading = "Tân Thanh Quang English Center",
-  description = "Achieve fluency and confidence in English with our expert-led courses designed for all levels. Whether you’re preparing for international exams or improving communication skills, we provide a personalized learning experience.",
-  buttons = {
-    primary: {
-      text: "Contact Us",
-      url: "#",
-    },
-    secondary: {
-      text: "Get Started",
-      url: "#stats-section",
-    },
-  },
+  description = "Đạt được sự thành thạo và tự tin trong tiếng Anh với các khóa học do chuyên gia giảng dạy, phù hợp cho mọi trình độ. Dù bạn đang chuẩn bị cho các kỳ thi quốc tế hay muốn cải thiện kỹ năng giao tiếp, chúng tôi mang đến trải nghiệm học tập cá nhân hóa.",
   reviews = {
     count: 200,
     avatars: [
@@ -92,7 +82,7 @@ const Hero3 = ({
                 ))}
               </div>
               <p className="text-muted-foreground text-left font-medium">
-                from {reviews.count}+ reviews
+                từ {reviews.count}+ lượt đánh giá
               </p>
             </div>
           </div>

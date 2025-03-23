@@ -11,8 +11,8 @@ interface Logo {
   }
   
   const Logos8 = ({
-    title = "Recognized English Certifications",
-    subtitle = "Our programs are designed to help you achieve globally recognized English certifications, opening doors to academic and professional opportunities.",
+    title = "Chứng Chỉ Tiếng Anh Được Công Nhận",
+    subtitle = "Chương trình của chúng tôi được thiết kế để giúp bạn đạt được các chứng chỉ tiếng Anh được công nhận trên toàn cầu, mở ra nhiều cơ hội học tập và nghề nghiệp.",
     logos = [
       {
         name: "IELTS",

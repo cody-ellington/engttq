@@ -16,16 +16,16 @@ interface Cta11Props {
 }
 
 const Cta11 = ({
-  heading = "Ready to Get Started?",
-  description = "Join thousands of satisfied customers using our platform to build amazing websites.",
+  heading = "Ready to elevate your learning?",
+  description = "Join thousands of students and educators using our platform to unlock new opportunities.",
   buttons = {
     primary: {
-      text: "Get Started",
-      url: "https://www.shadcnblocks.com",
+      text: "Liên hệ",
+      url: "/contact",
     },
     secondary: {
-      text: "Learn More",
-      url: "https://www.shadcnblocks.com",
+      text: "Các khoá học",
+      url: "/course",
     },
   },
 }: Cta11Props) => {
