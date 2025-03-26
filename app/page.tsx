@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* CTA SECTION */}
       <section id="cta-section" className="main-section" data-aos="fade-up">
-        <Cta11 heading={"Sẵn sàng tham gia?"} description={"Cùng them gia với chúng tôi để nâng cấp kỹ năng của bạn"}></Cta11>
+        <Cta11 heading={"Sẵn sàng tham gia?"} description={"Cùng tham gia với chúng tôi để nâng cấp kỹ năng của bạn"}></Cta11>
       </section>
     </>
   );
